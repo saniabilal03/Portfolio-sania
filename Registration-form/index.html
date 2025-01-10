@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form style="background-color: rgb(171, 141, 199);" action="/submit" method="post">
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" required>
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+        <br><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+        <br><br>
+
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" name="pincode" required>
+        <br><br>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required>
+        <br><br>
+
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" id="drawing" name="hobbies" value="Drawing">
+        <label for="drawing">Drawing</label>
+        <input type="checkbox" id="singing" name="hobbies" value="Singing">
+        <label for="singing">Singing</label>
+        <input type="checkbox" id="dancing" name="hobbies" value="Dancing">
+        <label for="dancing">Dancing</label>
+        <input type="checkbox" id="reading" name="hobbies" value="Reading">
+        <label for="reading">Reading</label>
+        <br><br>
+
+        <label>Qualification:
+            <select name="qualification">
+                <option value="highSchool">High School</option>
+                <option value="undergraduate">Undergraduate</option>
+                <option value="graduate">Graduate</option>
+            </select>
+        </label><br>
+        <div>
+            <label for="serialNumber">Serial Number:</label>
+            <input type="text" id="serialNumber" name="serialNumber" required>
+        </div>
+        <div>
+            <label for="examination">Examination:</label>
+            <input type="text" id="examination" name="examination" required>
+        </div>
+        <div>
+            <label for="board">Board:</label>
+            <input type="text" id="board" name="board" required>
+        </div>
+        <div>
+            <label for="percentage">Percentage:</label>
+            <input type="text" id="percentage" name="percentage" required>
+        </div>
+        <div>
+            <label for="yearOfPassing">Year of Passing:</label>
+            <input type="text" id="yearOfPassing" name="yearOfPassing" required>
+        </div>
+        <br><br>
+
+        <label for="course">Courses Applied For:</label>
+        <input type="checkbox" id="bca" name="courses
+html
+Copy code
+" value="BCA">
+        <label for="bca">BCA</label>
+        <input type="checkbox" id="bcom" name="courses" value="B.Com">
+        <label for="bcom">B.Com</label>
+        <input type="checkbox" id="bsc" name="courses" value="B.Sc">
+        <label for="bsc">B.Sc</label>
+        <input type="checkbox" id="ba" name="courses" value="B.A">
+        <label for="ba">B.A</label>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
+</html>
